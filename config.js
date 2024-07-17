@@ -19,10 +19,10 @@ global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaNRcHSJP
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://raw.githubusercontent.com/HyHamza/HyHamza/main/Images/logo.jpg";
 global.devs = "923072380380";
 global.sudo = process.env.SUDO || "923072380380";
-global.owner = process.env.OWNER_NUMBER || "923072380380";
+global.owner = process.env.OWNER_NUMBER || "2349074664307";
 global.style = process.env.STYLE || "3";
-global.gdbye = process.env.GOODBYE || "false";
-global.wlcm = process.env.WELCOME || "false";
+global.gdbye = process.env.GOODBYE || "true";
+global.wlcm = process.env.WELCOME || "true";
 global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
@@ -48,11 +48,11 @@ module.exports = {
   HANDLERS: process.env.PREFIX || ",",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "*Powered By TalkDrove*",
-  author: process.env.PACK_AUTHER || "TalkDrove",
+  caption: process.env.CAPTION || "*Powered By Abdulmalik*",
+  author: process.env.PACK_AUTHER || "Abdulmalik",
   packname: process.env.PACK_NAME || "♥️",
-  botname: process.env.BOT_NAME || "BYTE-MD",
-  ownername: process.env.OWNER_NAME || "Hamza",
+  botname: process.env.BOT_NAME || "ABDULMALIK",
+  ownername: process.env.OWNER_NAME || "Maleek",
   errorChat: process.env.ERROR_CHAT || "923072380380",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
