@@ -1,5 +1,5 @@
 {
-  "name": "BYTE-MD",
+  "name": "Abdulmalik",
   "description": "World Simplest Bot created by TalkDrove ",
   "logo": "https://raw.githubusercontent.com/HyHamza/HyHamza/main/Images/logo.jpg",
   "keywords": ["BYTE-MD", "Byte", "Hamza","TalkDrove","HyHamza","HyByte"],
@@ -9,7 +9,7 @@
   "env": {
     "OWNER_NAME": {
       "description": "Name for Bot Owner",
-      "value": "TalkDrove",
+      "value": "cheapmovement",
       "required": true
     },
     "SESSION_ID": {
@@ -18,7 +18,7 @@
     },
     "WELCOME": {
       "description": "put 'false' or 'true' to enable & disable WELCOME ",
-      "value": "false",
+      "value": "true",
       "required": false
     },
 
@@ -79,7 +79,7 @@
     },
     "DISABLE_PM": {
       "description": "Make it 'false' if you wanna run bot in your pm (if MODE is Public)",
-      "value": "false",
+      "value": "true",
       "required": false
     },
     "PREFIX": {
@@ -88,7 +88,7 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-      "value": "923072380380"
+      "value": "2349074664307"
     },
 
     "MODE": {
@@ -97,12 +97,12 @@
     },
     "PACK_NAME": {
       "description": "Put Sticker Pack_Name.",
-      "value": "BYTE",
+      "value": "malik",
       "required": false
     },
     "PACK_AUTHER": {
       "description": "Put Sticker Author_Name.",
-      "value": "TalkDrove",
+      "value": "AbdulMalik",
       "required": false
     }
   },
